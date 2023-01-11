@@ -48,6 +48,7 @@ export function updateCartTotal(postsMap) {
 }
 
 export function addedToCart(pname) {
+  debugger
   var message = pname + " was added to the cart";
   var alerts = document.getElementById("alerts");
   if (!alerts) return;

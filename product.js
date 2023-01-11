@@ -107,7 +107,7 @@ function mainHead() {
                 <img src="./img/arrowright.png" alt="arrow">
   <p class="container__top__product uppercase" href="#">${el.title}</p>
   `;
-   debugger
+
         var btns = document.getElementsByClassName("addtocart");
         for (var i = 0; i < btns.length; i++) {
           btns[i].addEventListener("click", function () {

@@ -1,4 +1,4 @@
-@media screen and (max-width: 782px)  {
+@media screen and (max-width: 782px) {
   :root {
     font-size: 10px;
   }
@@ -11,7 +11,7 @@
     font-family: var(--oswald);
     color: #333333;
     padding-left: 0rem;
-}
+  }
 
   .banner__container {
     display: flex;
@@ -21,76 +21,74 @@
   }
 
   .banner__content {
-  padding-top: 4.3rem;
-}
+    padding-top: 4.3rem;
+  }
 
-.banner__content__title {
+  .banner__content__title {
+    font-weight: 400;
+    font-size: 2.5rem;
+    width: 100%;
+  }
 
-  font-weight: 400;
-  font-size: 2.5rem;
-  width: 100%;
-}
+  .banner_content__img {
+    padding-top: 2rem;
+  }
 
-.banner_content__img {
-  padding-top: 2rem;
-
-}
-
-.banner__content__subtitle {
+  .banner__content__subtitle {
     font-weight: 300;
     color: black;
     padding-left: 5rem;
     width: 100%;
-}
+  }
 
-.banner_content__img img {
-  width: 540px;
-  height: 580px;
-}
+  .banner_content__img img {
+    width: 540px;
+    height: 580px;
+  }
 
-.banner__content__btn {
+  .banner__content__btn {
     padding-top: 2rem;
     padding-left: 5rem;
-}
+  }
 
-.new-collection__conatiner {
+  .new-collection__conatiner {
     background-color: #f1f1f1;
     height: 100%;
     margin-bottom: 53px;
-}
+  }
 
-.new-collection__list {
+  .new-collection__list {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 63rem;
     margin-left: 6rem;
     padding-bottom: 5rem;
-}
+  }
 
-.bestselling__conatiner {
+  .bestselling__conatiner {
     display: flex;
     justify-content: center;
     width: 100%;
     margin-top: 0rem;
     flex-wrap: wrap;
-}
+  }
 
-.bestselling__img {
+  .bestselling__img {
     margin-top: 0rem;
     padding-top: 0rem;
     width: 100%;
-}
+  }
 
-.bestselling__img img {
-width: 56rem;
-height: 53rem;
-padding-top: 0rem;
-margin-left: 9rem;
-margin-top: 3rem;
-}
+  .bestselling__img img {
+    width: 56rem;
+    height: 53rem;
+    padding-top: 0rem;
+    margin-left: 9rem;
+    margin-top: 3rem;
+  }
 
-.bestselling__title {
+  .bestselling__title {
     padding-top: 0rem;
     padding-left: 0rem;
     width: 100%;
@@ -101,103 +99,100 @@ margin-top: 3rem;
     height: 8rem;
     color: #001f3d;
     padding-left: 2rem;
-}
+  }
 
-.bestselling__btn {
-  
-margin-top: 3rem;
-margin-bottom: 3.5rem;
-}
+  .bestselling__btn {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+  }
 
-.bestselling__subtitle {
-display: none;
-}
+  .bestselling__subtitle {
+    display: none;
+  }
 
-.sales__list {
+  .sales__list {
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     flex-wrap: wrap;
     padding-top: 6.7rem;
     height: 80rem;
-}
-.sales__list__2 {
-  margin-top: 3rem;
-}
+  }
+  .sales__list__2 {
+    margin-top: 3rem;
+  }
 
-.sales__list__1__text, .sales__list__2__text {
-  display: none;
-}
+  .sales__list__1__text,
+  .sales__list__2__text {
+    display: none;
+  }
 
-.sportif__original__pant__1 {
+  .sportif__original__pant__1 {
     width: 75%;
     padding-left: 16.2rem;
     padding-top: 2.2rem;
     margin-top: 0rem;
     margin-bottom: 0rem;
     font-size: 4.5rem;
-}
+  }
 
-.sportif__original__pant__2 {
+  .sportif__original__pant__2 {
     width: 95%;
     font-size: 1.7rem;
     line-height: 3.3rem;
     padding-left: 2.2rem;
-}
+  }
 
-.sportif__original__pant__btn {
+  .sportif__original__pant__btn {
     margin-left: 26.2rem;
     font-size: 1.5rem;
     margin-top: 0rem;
-}
-.header-top nav ul {
+  }
+  .header-top nav ul {
     width: 40%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+  }
 
-}
-
-
-.sportif__original__pant {
+  .sportif__original__pant {
     width: 100%;
     height: 32rem;
     background-image: url(../img/sportif-original-pant-bkgr.png);
     background-size: 82rem;
     background-repeat: no-repeat;
-        margin-top: 27rem;
+    margin-top: 27rem;
     margin-left: 0rem;
+  }
 
-}
-
-.stayintrend__container__first__block {
+  .stayintrend__container__first__block {
     margin-left: 5.5rem;
     margin-top: 5rem;
-}
+  }
 
-.stayintrend__container__first__block p {
+  .stayintrend__container__first__block p {
     font-weight: 600;
     font-size: 4.5rem;
-}
+  }
 
-.stayintrend__container__list {
-display: flex;
+  .stayintrend__container__list {
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     width: 96%;
     margin-left: 3.5rem;
-}
+  }
 
-.stayintrend__container__list__item {
+  .stayintrend__container__list__item {
     border: 1px solid black;
     width: 21%;
     height: 12.2rem;
-}
+  }
 
-.stayintrend__container__list__item p {
+  .stayintrend__container__list__item p {
     font-family: var(--oswald);
     font-style: normal;
     font-weight: 400;
@@ -206,23 +201,23 @@ display: flex;
     color: #333333;
     text-align: center;
     margin-top: 0rem;
-}
+  }
 
-.stayintrend__container__list img {
-  display: none;
-}
+  .stayintrend__container__list img {
+    display: none;
+  }
 
-.stayintrend__container__list__btn {
+  .stayintrend__container__list__btn {
     width: 100%;
     margin-left: 0rem;
     margin-top: 1.5rem;
     font-size: 1.2rem;
-}
-.stayintrend__container__first__block2_img {
+  }
+  .stayintrend__container__first__block2_img {
     margin-top: 11rem;
-}
-.stayintrend__container__first__block2 {
-    background-color: #F3F3F3;
+  }
+  .stayintrend__container__first__block2 {
+    background-color: #f3f3f3;
     height: 33.9rem;
     width: 85%;
     margin-left: 7.3rem;
@@ -231,16 +226,16 @@ display: flex;
     align-items: center;
     flex-direction: column;
     margin-bottom: 10rem;
-}
-.stayintrend__container__first__block2_1 p:nth-of-type(1) {
+  }
+  .stayintrend__container__first__block2_1 p:nth-of-type(1) {
     font-family: var(--oswald);
     font-weight: 700;
     font-size: 4rem;
     line-height: 9.6rem;
     text-align: center;
-    color: #001F3D;
-}
-.stayintrend__container__first__block2_1 p:nth-of-type(2) {
+    color: #001f3d;
+  }
+  .stayintrend__container__first__block2_1 p:nth-of-type(2) {
     font-family: var(--opensans);
     font-weight: 300;
     font-size: 1.5rem;
@@ -249,10 +244,14 @@ display: flex;
     margin: 0;
     position: relative;
     bottom: 5rem;
-}
-.stayintrend__container__first__block2_1__btn {
+  }
+  .stayintrend__container__first__block2_1__btn {
     width: 25%;
     height: 4rem;
     bottom: 4rem;
-}
+  }
+  .header-top__nav, .header-top {
+    display: flex;
+    flex-direction: column;
+  }
 }
