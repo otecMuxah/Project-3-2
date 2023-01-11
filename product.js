@@ -13,6 +13,11 @@ async function getData() {
 
 async function main() {
   const postsData = await getData();
+  const postsMap = postsData.reduce((acc, next) => {
+    acc[next.id] = next;
+    return acc;
+  }, {});
+
   const urlSearchParams = new URLSearchParams(window.location.search);
   const params = Object.fromEntries(urlSearchParams.entries());
   const el = postsData.find((el) => el.id === +params.id);
@@ -102,6 +107,7 @@ function mainHead() {
                 <img src="./img/arrowright.png" alt="arrow">
   <p class="container__top__product uppercase" href="#">${el.title}</p>
   `;
+   debugger
         var btns = document.getElementsByClassName("addtocart");
         for (var i = 0; i < btns.length; i++) {
           btns[i].addEventListener("click", function () {

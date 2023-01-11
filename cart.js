@@ -50,14 +50,16 @@ export function updateCartTotal(postsMap) {
 export function addedToCart(pname) {
   var message = pname + " was added to the cart";
   var alerts = document.getElementById("alerts");
+  if (!alerts) return;
   alerts.innerHTML = message;
-  if (!alerts.classList.contains("message")) {
-    alerts.classList.add("message");
+  if (!alerts?.classList.contains("message")) {
+    alerts?.classList.add("message");
   }
   alert(message);
 }
 
 export function addToCart(id, postsMap) {
+    debugger
     var product = postsMap[id];
   
     if (!sessionStorage.getItem("cart")) {
