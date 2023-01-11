@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class work</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top container" id="top">
+            <img src="./img/logo.jpg" alt="Logo" class="header-top__logo">
+            <nav>
+                <ul class="header-top__nav upppercase">
+                    <li class="header-top__nav__items">
+                        <a href="./shorts.html" class="uppercase">shorts</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">pants</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">shirts</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">accessories</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">sale</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <button type="submit" class="cart__button uppercase" data-modal-target="modal1">Cart<span
+                                class="cart__button__counter" id="itemsquantitytopnav"> 0</span></button>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-top__search upppercase">
+                <input type="search" placeholder="search entire store here">
+            </div>
+        </div>
+        <main>
+            <div id="container_top" class="container__top">
+                <div class="add__item__cart" id="alerts"></div>
+            </div>
+
+                <div class="container__info" id="product"></div>
+        </main>
+
+        <!-- shopping cart window -->
+        <div class="modal" id="modal1">
+            <div class="modal__content">
+                <span class="modal__close">&times;</span>
+
+                <div class="cart__container">
+                    <img src="./img/logo.jpg" alt="Logo" class="header-top__logo">
+                    <p>Cart</p>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Product</th>
+                                <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPrice</th>
+                                <th>Image</th>
+                            </tr>
+                        </thead>
+                        <tbody id="carttable">
+                        </tbody>
+                    </table>
+                    <div class="modal__border"></div>
+                    <table class="cart__totals" id="carttotals">
+                        <tr>
+                            <td>Items</td>
+                            <td>Total</td>
+                        </tr>
+                        <tr>
+                            <td>x <span id="itemsquantity">0</span></td>
+
+                            <td>$<span id="total">0</span></td>
+                        </tr>
+                    </table>
+
+
+                    <div class="cart__buttons">
+                        <button class="cart__btn__empty uppercase" id="emptycart">Empty Cart</button>
+                        <button class="cart__btn__checkout uppercase" id="checkout">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="./cart.js" defer></script>
+        <script type="module" src="./modal.js" defer></script>
+        <script type="module" src="./product.js" defer></script>
+</body>
+
+</html>

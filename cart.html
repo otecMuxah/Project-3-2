@@ -1,0 +1,39 @@
+<button data-modal-target="modal1">Cart</button>
+<div class="modal" id="modal1"> <!-- This is the background overlay -->
+    <div class="modal-content"> <!-- This is the actual modal/popup box -->
+        <span class="modal-close">&times;</span>
+
+        <div class="cart-container">
+            <h2>Cart</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th><strong>Product</strong></th>
+                        <th><strong>Price</strong></th>
+                    </tr>
+                </thead>
+                <tbody id="carttable">
+                </tbody>
+            </table>
+            <hr>
+            <table id="carttotals">
+                <tr>
+                    <td><strong>Items</strong></td>
+                    <td><strong>Total</strong></td>
+                </tr>
+                <tr>
+                    <td>x <span id="itemsquantity">0</span></td>
+
+                    <td>$<span id="total">0</span></td>
+                </tr>
+            </table>
+
+
+            <div class="cart-buttons">
+                <button id="emptycart">Empty Cart</button>
+                <button id="checkout">Checkout</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

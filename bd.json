@@ -1,0 +1,454 @@
+[
+    {
+    "userId": 1,
+    "id": 1,
+    "title": "O-Fit Velour Pant",
+    "img": "1.jpeg",
+    "price": "40.00",
+    "colors": ["orange", "black"],
+    "sizes": [36, 42, 46]
+  },
+    {
+    "userId": 1,
+    "id": 2,
+    "title": "Brice Velour Pant",
+    "img": "2.jpeg",
+    "price": "39.00",
+    "colors": ["brown", "black", "orange"],
+    "sizes": [36, 32, 44]
+  },
+    {
+    "userId": 1,
+    "id": 3,
+    "title": "O-Fit Velour Pant",
+    "img": "3.jpeg",
+    "price": "45.00",
+    "colors": ["black", "blue, green"],
+    "sizes": [32, 36, 46]
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "Deverall Velour Pant",
+    "img": "4.jpeg",
+    "price": "40.99",
+    "colors": ["brown", "white", "orange"],
+    "sizes": ["32","30", "36", "46"]
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "Brice Velour Pant",
+    "img": "5.jpeg",
+    "price": "37.00",
+    "colors": ["blue", "green", "orange"],
+    "sizes": ["30", "32", "34", "36", "38"]
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "Ravid Velour Pant",
+    "img": "6.jpeg",
+    "price": "55.00",
+    "colors": ["grey", "black", "white"]
+    ,
+    "sizes": ["30", "32", "34", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 1,
+    "id": 7,
+    "title": "Chardon Jogger",
+    "img": "7.jpeg",
+    "price": "31.00",
+    "colors": ["brown", "black", "white"],
+    "sizes": ["30", "32", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 1,
+    "id": 8,
+    "title": "Brice Velour Pant",
+    "img": "8.jpeg",
+    "price": "35.55",
+    "colors": ["white", "grey", "orange"],
+    "sizes": ["40", "42", "44", "46"]
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "title": "Ravid Velour Pant",
+    "img": "9.jpeg",
+    "price": "38.99",
+    "colors": ["orange"],
+    "sizes": ["30", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 1,
+    "id": 10,
+    "title": "Deverall Velour Pant",
+    "img": "10.jpeg",
+    "price": "40.99",
+    "colors": ["blue", "orange"],
+    "sizes": ["30", "32", "34", "36", "38", "44", "46"]
+  },
+  {
+    "userId": 2,
+    "id": 11,
+    "title": "O-Fit Velour Pant",
+    "img": "11.jpeg",
+    "price": "41.99",
+    "colors": ["white", "grey", "green"],
+    "sizes": ["30", "32", "34", "36", "38", "40", "42"]
+  },
+  {
+    "userId": 2,
+    "id": 12,
+    "title": "Deverall Velour Pant",
+    "img": "12.jpeg",
+    "price": "44.00",
+    "colors": ["green", "gray"],
+    "sizes": ["30", "32"]
+  },
+  {
+    "userId": 2,
+    "id": 13,
+    "title": "Ridd Track Pant",
+    "img": "13.jpeg",
+    "price": "35.0",
+    "colors": ["black", "orange"],
+    "sizes": ["30", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 2,
+    "id": 14,
+    "title": "Pawa Jogger",
+    "img": "14.jpeg",
+    "price": "36.0",
+    "colors": ["brown", "black", "green"],
+    "sizes": ["36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 2,
+    "id": 15,
+    "title": "Ravid Velour Pant",
+    "img": "15.jpeg",
+    "price": "40.00",
+    "colors": ["brown", "black", "white"],
+    "sizes": ["30", "32", "34","44", "46"]
+  },
+  {
+    "userId": 2,
+    "id": 16,
+    "title": "Himmat Jogger",
+    "img": "16.jpeg",
+    "price": "39.99",
+    "colors": ["orange"],
+    "sizes": ["46"]
+  },
+  {
+    "userId": 2,
+    "id": 17,
+    "title": "Chardon Jogger",
+    "img": "17.jpeg",
+    "price": "47.00",
+    "colors": ["brown", "gray"],
+    "sizes": ["30", "32", "34", "36", "38"]
+  },
+  {
+    "userId": 2,
+    "id": 18,
+    "title": "Ravid Velour Pant",
+    "img": "18.jpeg",
+    "price": "42.10",
+    "colors": ["gray", "black", "orange"],
+    "sizes": ["34", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 2,
+    "id": 19,
+    "title": "Lewis Velour Pant",
+    "img": "19.jpeg",
+    "price": "40.00",
+    "colors": ["brown", "black", "green"],
+    "sizes": ["30", "32", "34", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 2,
+    "id": 20,
+    "title": "Amar Track Pant",
+    "img": "20.jpeg",
+    "price": "42.99",
+    "colors": ["brown", "black", "orange", "blue"],
+    "sizes": ["30", "32", "34", "36", "38", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 21,
+    "title": "Cima Velour Pant",
+    "img": "21.jpeg",
+    "price": "40.00",
+    "colors": ["brown", "black", "white"],
+    "sizes": ["30", "32", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 22,
+    "title": "Estudio Velour Short",
+    "img": "22.jpeg",
+    "price": "40.00",
+    "colors": ["brown", "black", "gray"],
+    "sizes": ["34", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 23,
+    "title": "Ravid Velour Pant",
+    "img": "23.jpeg",
+    "price": "39.00",
+    "colors": ["gray"],
+    "sizes": ["30", "32", "34", "36", "38", "40", "42"]
+  },
+  {
+    "userId": 3,
+    "id": 24,
+    "title": "Deverall Velour Pant",
+    "img": "24.jpeg",
+    "price": "40",
+    "colors": ["gray", "white", "green"],
+    "sizes": ["30", "32", "34", "36", "38", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 25,
+    "title": "Amay Jogger",
+    "img": "25.jpeg",
+    "price": "27.00",
+    "colors": ["green"],
+    "sizes": ["30", "32", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 26,
+    "title": "O-Fit Velour Pant",
+    "img": "26.jpeg",
+    "price": "40.00",
+    "colors": ["orange"],
+    "sizes": ["30", "32", "34", "36", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 27,
+    "title": "Renzo Pant",
+    "img": "27.jpeg",
+    "price": "41.00",
+    "colors": ["brown", "orange"],
+    "sizes": ["30", "32", "34", "36", "42", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 28,
+    "title": "Grant Hill Orson Pant",
+    "img": "28.jpeg",
+    "price": "43.00",
+    "colors": ["brown", "green"],
+    "sizes": ["30", "32", "34", "36", "38", "44", "46"]
+  },
+  {
+    "userId": 3,
+    "id": 29,
+    "title": "Wayan Track Pant",
+    "img": "29.jpeg",
+    "price": "52.00",
+    "colors": ["brown", "white", "orange", "gray", "blue"],
+    "sizes": ["30", "32", "34", "36", "38", "40", "42", "44"]
+  },
+  {
+    "userId": 3,
+    "id": 30,
+    "title": "Faras Windpant",
+    "img": "30.jpeg",
+    "price": "59.00",
+    "colors": ["blue", "green", "white"],
+    "sizes": ["38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 4,
+    "id": 31,
+    "title": "2pac Cargo Pant",
+    "img": "31.jpeg",
+    "price": "54.00",
+    "colors": ["brown", "green", "orange"],
+    "sizes": ["30"]
+  },
+  {
+    "userId": 4,
+    "id": 32,
+    "title": "Mansur Velour Pant",
+    "img": "32.jpeg",
+    "price": "40.00",
+    "colors": ["brown", "green", "grey"],
+    "sizes": ["32", "34"]
+  },
+  {
+    "userId": 4,
+    "id": 33,
+    "title": "Mansur Velour Pant",
+    "img": "33.jpeg",
+    "price": "40.99",
+    "colors": ["brown", "green", "blue"],
+    "sizes": ["36", "38"]
+  },
+  {
+    "userId": 4,
+    "id": 34,
+    "title": "Estudio Velour Short",
+    "img": "34.jpeg",
+    "price": "40.99",
+    "colors": ["blue", "white", "orange"],
+    "sizes": ["34", "36"]
+  },
+  {
+    "userId": 4,
+    "id": 35,
+    "title": "Amar Track Pant",
+    "img": "35.jpeg",
+    "price": "37.99",
+    "colors": ["brown"],
+    "sizes": ["36", "40"]
+  },
+  {
+    "userId": 4,
+    "id": 36,
+    "title": "Waylon Pant",
+    "img": "36.jpeg",
+    "price": "38.50",
+    "colors": ["orange"],
+    "sizes": ["30", "38"]
+  },
+  {
+    "userId": 4,
+    "id": 37,
+    "title": "Sidney Pant",
+    "img": "37.jpeg",
+    "price": "41.50",
+    "colors": ["white"],
+    "sizes": ["36", "40"]
+  },
+  {
+    "userId": 4,
+    "id": 38,
+    "title": "Ravid Velour Pant",
+    "img": "38.jpeg",
+    "price": "40.99",
+    "colors": ["gray"],
+    "sizes": ["42", "44"]
+  },
+  {
+    "userId": 4,
+    "id": 39,
+    "title": "Lyons Track Pant",
+    "img": "39.jpeg",
+    "price": "34.00",
+    "colors": ["brown", "gray", "blue"],
+    "sizes": ["40", "46"]
+  },
+  {
+    "userId": 4,
+    "id": 40,
+    "title": "2pac Patch Jogger",
+    "img": "40.jpeg",
+    "price": "35.99",
+    "colors": ["brown", "black", "green"],
+    "sizes": ["40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 41,
+    "title": "Estudio Velour Short",
+    "img": "41.jpeg",
+    "price": "40.00",
+    "colors": ["brown", "black", "orange", "gray", "white", "blue", "white"],
+    "sizes": ["30", "32", "34", "36", "38", "40", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 42,
+    "title": "Fila X Paterson Velour Pant",
+    "img": "42.jpeg",
+    "price": "59.00",
+    "colors": ["brown", "orange", "gray", "white", "blue", "white"],
+    "sizes": ["30", "32", "34", "36", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 43,
+    "title": "Fila X Paterson Velour Pant",
+    "img": "43.jpeg",
+    "price": "59.99",
+    "colors": ["black", "orange", "gray", "white", "blue", "white"],
+    "sizes": ["30", "32", "34", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 44,
+    "title": "Trent Jogger",
+    "img": "44.jpeg",
+    "price": "65.00",
+    "colors": ["brown", "black", "orange", "gray", "white", "white"],
+    "sizes": ["30", "32", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 45,
+    "title": "Chardon Jogger",
+    "img": "45.jpeg",
+    "price": "44.99"
+    ,
+    "colors": ["brown", "black", "orange", "gray", "white"],
+    "sizes": ["30", "32", "34", "36", "38", "40", "42", "44"]
+  },
+  {
+    "userId": 5,
+    "id": 46,
+    "title": "Deverall Velour Pant",
+    "img": "46.jpeg",
+    "price": "47.99",
+    "colors": ["brown", "black", "orange", "blue", "white"],
+    "sizes": ["30", "32", "34", "36", "38", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 47,
+    "title": "2pac Patch Jogger",
+    "img": "47.jpeg",
+    "price": "41.99",
+    "colors": ["orange", "gray", "white", "blue", "white"],
+    "sizes": ["30", "34", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 48,
+    "title": "Garin JoggerCommuter Track Pant",
+    "img": "48.jpeg",
+    "price": "52.99",
+    "colors": ["gray", "white", "blue", "white"],
+    "sizes": ["32", "34", "36", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 49,
+    "title": "Amar Track Pant",
+    "img": "49.jpeg",
+    "price": "52.00",
+    "colors": ["brown", "black", "blue", "white"],
+    "sizes": ["30", "32", "38", "40", "42", "44", "46"]
+  },
+  {
+    "userId": 5,
+    "id": 50,
+    "title": "Deverall Velour Pant",
+    "img": "50.jpeg",
+    "price": "63.99",
+    "colors": ["blue", "white"],
+    "sizes": ["46"]
+  }
+]

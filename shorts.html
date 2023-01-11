@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class work</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top container" id="top">
+            <img src="./img/logo.jpg" alt="Logo" class="header-top__logo">
+            <nav>
+                <ul class="header-top__nav upppercase">
+                    <li class="header-top__nav__items">
+                        <a href="./shorts.html" class="uppercase">shorts</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">pants</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">shirts</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">accessories</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <a href="#" class="uppercase">sale</a>
+                    </li>
+                    <li class="header-top__nav__items">
+                        <button type="submit" class="cart__button uppercase" data-modal-target="modal1">Cart<span
+                                class="cart__button__counter" id="itemsquantitytopnav"> </span></button>
+
+                    </li>
+                </ul>
+            </nav>
+            <div class="header-top__search upppercase">
+                <input type="search" placeholder="search entire store here">
+            </div>
+        </div>
+        <main>
+            <div class="container__top">
+                <img src="./img/homeicon.png" alt="home">
+                <a class="uppercase" href="./index.html">home</a>
+                <img src="./img/arrowright.png" alt="arrow">
+                <a class="uppercase" href="shorts.html">shorts</a>
+                <form>
+                    <input class="search__shorts uppercase" type="text" placeholder="Search">
+                    <div class="search__border "></div>
+                </form>
+                <div class="add__item__cart" id="alerts"></div>
+            </div>
+
+            <div class="shorts__mainpage">
+                <div class="container__filter">
+                    <div class="container__filter__size">
+                        <p class="uppercase">size</p>
+                        <img src="./img/arrowup.png" alt="arrow">
+                    </div>
+                    <div>
+                        <form action="" class="filter__size__form sizes">
+                            <input class="filter__checkbox" type="checkbox" value="30" id="30">
+                            <label for="30">30</label>
+                            <input class="filter__checkbox" type="checkbox" value="32" id="32">
+                            <label for="32">32</label>
+                            <input class="filter__checkbox" type="checkbox" value="34" id="34">
+                            <label for="34">34</label>
+                            <input class="filter__checkbox" type="checkbox" value="36" id="36">
+                            <label for="36">36</label>
+                            <input class="filter__checkbox" type="checkbox" value="38" id="38">
+                            <label for="38">38</label>
+                            <input class="filter__checkbox" type="checkbox" value="40" id="40">
+                            <label for="40">40</label>
+                            <input class="filter__checkbox" type="checkbox" value="42" id="42">
+                            <label for="42">42</label>
+                            <input class="filter__checkbox" type="checkbox" value="44" id="44">
+                            <label for="44">44</label>
+                            <input class="filter__checkbox" type="checkbox" value="46" id="46">
+                            <label for="46">46</label>
+                        </form>
+                    </div>
+                    <div class="container__filter__border"></div>
+                    <div class="container__filter__colors">
+                        <p class="uppercase">colors</p>
+                        <img src="./img/arrowup.png" alt="arrow">
+                    </div>
+                    <div>
+                        <form action="" class="filter__size__form colors">
+                            <input type="checkbox" class="filter__checkbox color-black" value="black"
+                                id="colorblack">
+                            <label for="colorblack"></label>
+                            <input type="checkbox" class="filter__checkbox color-brown" value="brown"
+                                id="colorbrown">
+                            <label for="colorbrown"></label>
+                            <input type="checkbox" class="filter__checkbox color-blue" value="blue" id="colorblue">
+                            <label for="colorblue"></label>
+                            <input type="checkbox" class="filter__checkbox color-green" value="green" id="colorgreen">
+                            <label for="colorgreen"></label>
+                            <input type="checkbox" class="filter__checkbox color-gray" value="gray" id="colorgray">
+                            <label for="colorgray"></label>
+                            <input type="checkbox" class="filter__checkbox color-orange" value="orange" id="colororange">
+                            <label for="colororange"></label>
+                            <input type="checkbox" class="filter__checkbox color-white" value="white" id="colorwhite">
+                            <label for="colorwhite"></label>
+                        </form>
+                    </div>
+                    <div class="container__filter__border"></div>
+                    <div class="container__filter__brands">
+                        <p class="uppercase">brands</p>
+                        <img src="./img/arrowup.png" alt="arrow">
+                    </div>
+                    <div>
+                        <form action="" class="filter__brands__form">
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand1">
+                            <label for="brand1"></label>
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand2">
+                            <label for="brand2"></label>
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand3">
+                            <label for="brand3"></label>
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand4">
+                            <label for="brand4"></label>
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand5">
+                            <label for="brand5"></label>
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand6">
+                            <label for="brand6"></label>
+                            <input type="checkbox" class="filter__brands__form__chekbox" id="brand7">
+                            <label for="brand7"></label>
+                        </form>
+                    </div>
+                    <div class="container__filter__border"></div>
+                    <div class="container__filter__size">
+                        <p class="uppercase">inseam</p>
+                        <img src="./img/arrowup.png" alt="arrow">
+                    </div>
+                    <div class="container__filter__border"></div>
+                    <div class="container__filter__size">
+                        <p class="uppercase">sustainable fabric</p>
+                        <img src="./img/arrowup.png" alt="arrow">
+                    </div>
+                    <div class="container__filter__border"></div>
+                    <div class="container__filter__size">
+                        <p class="uppercase">collections</p>
+                        <img src="./img/arrowup.png" alt="arrow">
+                    </div>
+                    <p></p>
+                </div>
+                <div class="container__filter__goods">
+                    <ul class="filter__goods__list">
+                    </ul>
+                    <div class="filter-arrowtop">
+                        <a href="#top"><img src="./img/arrowtop.png" alt=""></a>
+                    </div>
+                    <div class="pagination">
+                    </div>
+                </div>
+            </div>
+            </main>
+            <footer>
+                <div class="shorts__footer">
+                    <div>
+                        <p class="uppercase">ordering online</p>
+                        <ul class="shorts__footer__list1">
+                            <li class="shorts__footer__list__item">
+                                <a href="#">Account Login</a>
+                            </li>
+                            <li class="shorts__footer__list__item">
+                                <a href="#">Our Guarantee</a>
+                            </li>
+                            <li class="shorts__footer__list__item">
+                                <a href="#">SizeChart & Sizing Information</a>
+                            </li>
+                            <li class="shorts__footer__list__item">
+                                <a href="#">Hemming Information</a>
+                            </li>
+                            <li class="shorts__footer__list__item">
+                                <a href="#">Ordering & Payment</a>
+                            </li>
+                            <li class="shorts__footer__list__item">
+                                <a href="#">Shopping Information</a>
+                            </li>
+                            <li class="shorts__footer__list__item">
+                                <a href="#">Returns</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="uppercase">quick links</p>
+                        <ul>
+                            <li class="shorts__footer__list__item2">
+                                <a href="#">FAQs</a>
+                            </li>
+                            <li class="shorts__footer__list__item2">
+                                <a href="#">Shoping Online Catalog</a>
+                            </li>
+                            <li class="shorts__footer__list__item2">
+                                <a href="#">Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                    <div>
+                        <p class="uppercase">about sportif</p>
+                        <ul>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">COVID-19 Response</a>
+                            </li>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">History</a>
+                            </li>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">Legacy</a>
+                            </li>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">Good Sam Program</a>
+                            </li>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">Privacy & Security</a>
+                            </li>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">Terms & Conditions</a>
+                            </li>
+                            <li class="shorts__footer__list__item1">
+                                <a href="#">Carrers</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="uppercase">get to know us</p>
+                        <ul>
+                            <li class="shorts__footer__list__item2">
+                                <a href="#">Sign up for our weekly newslatter and get a 10% off coupon by email for your first order!</a>
+                            </li>
+                            <li class="shorts__footer__list__item2">
+                                <p>Sign Up for Our Newsletter:</p>
+                            </li>
+                            <li class="shorts__footer__list__item2">
+                                <form action="">
+                                    <input type="email" placeholder="EMAIL ADDRESS">
+                                    <button type="submit" class="uppercase">subscribe</button>
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                                            <div class="shorts__footer__bottom">
+                                                <p>©2021 Sportif Mailorder. All Rights Reserved.</p>
+                                            </div>
+            </footer>
+
+            <!-- shopping cart window -->
+            <div class="modal" id="modal1">
+                <div class="modal__content">
+                    <span class="modal__close">&times;</span>
+
+                    <div class="cart__container">
+                        <img src="./img/logo.jpg" alt="Logo" class="header-top__logo">
+                        <p>Cart</p>
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspPrice</th>
+                                    <th >Image</th>
+                                </tr>
+                            </thead>
+                            <tbody id="carttable">
+                            </tbody>
+                        </table>
+                        <div class="modal__border"></div>
+                        <table class="cart__totals" id="carttotals">
+                            <tr>
+                                <td>Items</td>
+                                <td>Total</td>
+                            </tr>
+                            <tr>
+                                <td>x <span id="itemsquantity">0</span></td>
+
+                                <td>$<span id="total">0</span></td>
+                            </tr>
+                        </table>
+
+
+                        <div class="cart__buttons">
+                            <button class="cart__btn__empty uppercase" id="emptycart">Empty Cart</button>
+                            <button class="cart__btn__checkout uppercase" id="checkout">Checkout</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <script type="module" src="./cart.js" defer></script>
+        <script type="module" src="./modal.js" defer></script>
+        <script type="module" src="./index.js" defer></script>
+
+
+</body>
+
+</html>
