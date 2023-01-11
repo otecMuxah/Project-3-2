@@ -102,30 +102,18 @@ async function main() {
       postEl.setAttribute("productid", el.id);
       postEl.classList.add("filter__goods__items");
       // #TODO: fix image links
+      console.log(el.colors);
       postEl.innerHTML = `
         <a href="./product.html?id=${el.id}">
           <img src="/img/base/${el.id}.jpeg">
-<p>${el.title}</p>
-<img class="filter__rating filter__rating__items" src="./img/rating.png">
-<p class="filter__goods__item__price"><span>As low as</span> $${el.price}</p>
-<div>
-    <form action="" class="filter__goods__colors">
-        <input type="radio" name="color" id="goodscolor1${el.id}" value="black" class="goods_color__1">
-        <label for="goodscolor1${el.id}"></label>
-        <input type="radio" name="color" id="goodscolor2${el.id}" value="brown" class="goods_color__2">
-        <label for="goodscolor2${el.id}"></label>
-        <input type="radio" name="color" id="goodscolor3${el.id}" value="blue" class="goods_color__3">
-        <label for="goodscolor3${el.id}"></label>
-        <input type="radio" name="color" id="goodscolor4${el.id}" value="green" class="goods_color__4">
-        <label for="goodscolor4${el.id}"></label>
-        <input type="radio" name="color" id="goodscolor5${el.id}" value="gray" class="goods_color__5">
-        <label for="goodscolor5${el.id}"></label>
-        <input type="radio" name="color" id="goodscolor6${el.id}" value="orange" class="goods_color__6">
-        <label for="goodscolor6${el.id}"></label>
-        <input type="radio" name="color" id="goodscolor7${el.id}" value="white" class="goods_color__7">
-        <label for="goodscolor7${el.id}"></label>
-    </form>
-</div>
+          <p>${el.title}</p>
+          <img class="filter__rating filter__rating__items" src="./img/rating.png">
+          <p class="filter__goods__item__price"><span>As low as</span> $${el.price}</p>
+          <div>
+              <form action="" class="filter__goods__colors">
+                ${renderColorElement(el.colors)}
+              </form>
+          </div>
         </a>
         <button productid=${el.id} type='button' class='filter__list__btn uppercase addtocart'>Add to cart</button>
         
@@ -139,6 +127,15 @@ async function main() {
         addToCart(this.getAttribute("productid"), postsMap);
       });
     }
+  }
+
+  function renderColorElement(colors) {
+    return colors.map((color, idx) => {
+      return ` 
+        <input type="radio" name="color" id="goodscolor1${idx}" value="${color}">
+        <label for="goodscolor1${idx}" class="goods_color ${color}"></label>
+      `
+    }).join('');
   }
 
   function displayPagination(arrData, rowPerPage) {

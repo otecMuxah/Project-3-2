@@ -941,30 +941,30 @@ input[name=color]:checked + label {
 box-shadow: 0px 0px 18px rgba(72, 67, 224, 0.573);
 }
 
-.goods_color__1 + label {
+.goods_color.black {
   background-color: #000000;
 }
 
-.goods_color__2 + label {
+.goods_color.brown {
   background-color: #744524;
 }
 
-.goods_color__3 + label {
+.goods_color.blue {
 background-color: #113EB1;
 }
 
-.goods_color__4 + label {
+.goods_color.green {
 background-color: #549554;
 }
-.goods_color__5 + label {
+.goods_color.grey {
 background-color: #808080;
 }
 
-.goods_color__6 + label {
+.goods_color.orange {
 background-color: #E59500;
 }
 
-.goods_color__7 + label {
+.goods_color.white {
 background-color: white;
 }
 
@@ -1450,5 +1450,5 @@ align-items: center;
   margin-bottom: 40px;
 }
 
-
+.
 
